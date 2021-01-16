@@ -62,4 +62,11 @@
 		</plugins>
 	</build>
 
+	<developers>
+		<developer>
+			<name>Saeed Sattari</name>
+			<email>saeedsatari93@gmail.com</email>
+		</developer>
+	</developers>
+
 </project>
