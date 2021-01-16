@@ -22,6 +22,6 @@ public class MessageSender {
 
     public void sendMessage(Product product) {
         amqpTemplate.convertAndSend(exchange, routingkey, product);
-        System.out.println("Send msg = " + product);
+        System.out.println("Sending Message to RabbitMQ = " + product);
     }
 }
